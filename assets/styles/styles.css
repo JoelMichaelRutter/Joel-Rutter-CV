@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
 /* font rules = font-family: 'Raleway', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 /* font rules = font-family: 'Montserrat', sans-serif;*/
 
 /*-----------------------------------------------Colours*/
@@ -16,12 +16,16 @@
     background-color: #263547;
 }
 
+.bg-color-three-reasons {
+    background-color: whitesmoke;
+}
+
 .ui-menu-color-home {
     background-color: #ffd116;
 }
 
 .ui-menu-color-cv {
-    background-color: #00C6B8;
+    background-color: #5C6086;
 }
 
 .ui-menu-color-contact {
@@ -30,6 +34,50 @@
 
 .ui-menu-color-download {
     background-color: #04544B;
+}
+
+.bg-color-perosnal-info {
+    background-color: #5C6086;
+}
+/*---------------------------------------------- Special paddings/margin/text */
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-weight: 400;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+    height: 500px;
+}
+
+.overflow-auto {
+    overflow-y: scroll;
+}
+
+.section-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*-----------------------------------------------Heading*/
@@ -78,7 +126,240 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
 }
+
+.menu-item {
+    height: 136px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: darkslategray;
+    width: 100%;
+    height: 100%;
+}
+
+#cv a {
+    color: whitesmoke;
+}
+
+#contact a {
+    color: whitesmoke;
+}
+
+#download a {
+    color: whitesmoke;
+}
+
+.menu-item a i {
+    padding-top: 22px;
+    display: block;
+    font-size: 26px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------hover.css overrides*/
+
+.hvr-sweep-to-bottom:before {
+    background: #263547;
+    /* height: 120px; */
+}
+
+/*-----------------------------------------------FOOTER*/
+
+footer {
+    background-color: #545454;
+    /* min-height: 120px; */
+    /* height: auto; */
+}
+
+footer p {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cv-pdf i {
+    font-size: 26px;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links {
+    font-size: 45px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.social-links li a i {
+    margin: 10px 35px 0px 0px;
+    color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.cv-pdf i:hover, .social-links li a i:hover {
+    color: #ffd116;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/*-----------------------------------------------Three Reasons*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: rgb(39, 59, 59);
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.three-reasons-item {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------------------------------Personal Info*/
+
+.p-info-title {
+    color: whitesmoke;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    color: whitesmoke;
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.personal-info-item .key p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------------------------------Skills*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    background-color: #cecece;
+}
+
+.progress-bar {
+    background-color: #263547;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    padding: 3px 30px 2px 10px;
+    background-color: rgba(25,25,25,0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*-----------------------------------------------WORK HISTORY*/
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position:relative;
+    color: whitesmoke;
+    border-left: solid 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 2.7em;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.timeline-item p:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 2.4em;
+    left: -7.5px;
+    border-radius: 50%;
+    content: '';
+    background-color: whitesmoke;
+}
+
