@@ -41,30 +41,46 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menu-container">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><span><i class="fas fa-home"
+                                <a href="index.html" class="hvr-sweep-to-bottom"><span><i class="fas fa-home"
                                             aria-hidden="true"></i> Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-cv menu-item" id="cv">
-                                <a href="#" class="hvr-sweep-to-bottom"><span><i class="fas fa-graduation-cap"
+                                <a href="cv.html" class="hvr-sweep-to-bottom"><span><i class="fas fa-graduation-cap"
                                             aria-hidden="true"></i> CV</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menu-item" id="contact">
-                                <a href="#" class="hvr-sweep-to-bottom"><span><i class="fas fa-comment-dots"
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><span><i class="fas fa-comment-dots"
                                             aria-hidden="true"></i> Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menu-item" id="download">
-                                <a href="#" class="hvr-sweep-to-bottom"><span><i class="fas fa-cloud-download-alt"
+                                <a href="assets/joel-rutter-cv.pdf" class="hvr-sweep-to-bottom" target="_blank"><span><i class="fas fa-cloud-download-alt"
                                             aria-hidden="true"></i> Download</span></a>
                             </li>
-
-
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading-one text-center">Got something in mind for me?</h3>
+                <h5 class="contact-heading-two text-center">Send me a message and let's stick our heads together!</h5>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <textarea rows="5" name="message" id="message" class="form-control" placeholder="Please enter your message here..." required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </section>
     <footer class="container-fluid">
@@ -78,7 +94,7 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">Need a printable version of my CV? Download it here
-                    <a href="#" targer="_blank" class="cv-pdf">
+                    <a href="assets/joel-rutter-cv.pdfs" targer="_blank" class="cv-pdf">
                         <i class="fas fa-download"></i>
                         <span class="sr-only">Download link.</span>
                         </i>
@@ -103,7 +119,8 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://open.spotify.com/playlist/5wTAszLeekxY0iNkR8JLJv?si=0b1c16a23942445e" target="_blank">
+                        <a href="https://open.spotify.com/playlist/5wTAszLeekxY0iNkR8JLJv?si=0b1c16a23942445e"
+                            target="_blank">
                             <i class="fab fa-spotify">
                                 <span class="sr-only">GitHub</span>
                             </i>

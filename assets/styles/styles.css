@@ -39,6 +39,10 @@
 .bg-color-perosnal-info {
     background-color: #5C6086;
 }
+
+.bg-color-contact {
+    background-color: whitesmoke;
+}
 /*---------------------------------------------- Special paddings/margin/text */
 h1, h2, h3, h4 {
     margin: 0;
@@ -66,7 +70,6 @@ h1, h2, h3, h4 {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
-    height: 500px;
 }
 
 .overflow-auto {
@@ -189,8 +192,7 @@ header {
 
 footer {
     background-color: #545454;
-    /* min-height: 120px; */
-    /* height: auto; */
+    min-height: 120px;
 }
 
 footer p {
@@ -361,5 +363,54 @@ footer p {
     border-radius: 50%;
     content: '';
     background-color: whitesmoke;
+}
+
+/*-----------------------------------------------WORK HISTORY*/
+
+.contact-heading-one,
+.contact-heading-two {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-heading-one {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.center-form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #263547; 
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+input[type="text"], input[type="email"], .form-control {
+    margin-top: 10px;
+    border: 1px solid darkslategray;
+}
+
+/*-----------------------------------------------MEDIA QUERIES*/
+/*-------------Larger screen*/
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 45%;
+    }
 }
 
