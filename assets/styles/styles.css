@@ -32,6 +32,14 @@
     background-color: #545454;
 }
 
+.ui-menu-color-interests {
+    background-color: #ffd116;
+}
+
+.ui-menu-color-github {
+    background-color: #5C6086;
+}
+
 .ui-menu-color-download {
     background-color: #04544B;
 }
@@ -93,8 +101,11 @@ header {
     margin-left: 50px;
 }
 .logo {
-    background-image: url('../images/joel-cv-cropped.jpg');
-    background-position: center;
+    /* background-image: url('../images/joel-cv-cropped.jpg'); */
+    /* background-position: center; */
+    background-image: url('../images/joel-rutter-cv-informal.jpg');
+    background-position-y: 18%;
+    /*Above positioning can be commented out if switching to cropped photo*/
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -160,6 +171,14 @@ header {
 }
 
 #download a {
+    color: whitesmoke;
+}
+
+#interests a {
+    color: darkslategray;
+}
+
+#github a {
     color: whitesmoke;
 }
 
