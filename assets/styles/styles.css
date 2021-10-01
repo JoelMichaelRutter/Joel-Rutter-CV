@@ -44,7 +44,7 @@
     background-color: #04544B;
 }
 
-.bg-color-perosnal-info {
+.bg-color-perosnal-info, .bg-color-conferences {
     background-color: #5C6086;
 }
 
@@ -272,7 +272,7 @@ footer p {
 
 /*-----------------------------------------------Personal Info*/
 
-.p-info-title {
+.p-info-title, .conference-heading {
     color: whitesmoke;
 }
 
@@ -314,6 +314,9 @@ footer p {
     font-family: 'Montserrat', sans-serif;
 }
 
+div#map {
+    min-height: 360px;
+}
 /*-----------------------------------------------Skills*/
 
 .progress {
