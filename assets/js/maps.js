@@ -10,6 +10,9 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
+        /**
+         * Edinburgh Locations
+         */
         // Civerinos Slice
         {
             lat: 55.945541,
