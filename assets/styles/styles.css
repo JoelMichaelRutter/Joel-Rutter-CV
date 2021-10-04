@@ -423,8 +423,29 @@ button[type="submit"] {
 input[type="text"], input[type="email"], .form-control {
     margin-top: 10px;
     border: 1px solid darkslategray;
+    border-radius: .25rem;
 }
 
+
+/*----------------------------------------------INTERESTS PAGE*/
+.things-i-like-list-item {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#things-i-love {
+    margin-left: 2rem;
+}
+
+/*---------------------------------------------GITHUB PAGE*/
+
+.github-headings {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.gh-avatar img {
+    border-radius: 50%;
+}
 /*-----------------------------------------------MEDIA QUERIES*/
 /*-------------Larger screen*/
 @media (min-width: 992px) {
