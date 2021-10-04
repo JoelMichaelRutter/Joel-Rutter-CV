@@ -101,10 +101,21 @@ img {
   padding: 3px;
 }
 
+.gh-content p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.gh-avatar {
+  text-align: center;
+  margin-top: 15px;
+}
+
 .repo-list {
   display: block;
   clear: both;
   width: 100%;
+  text-align: center;
 }
 
 .repo-list ul {
@@ -112,7 +123,7 @@ img {
 }
 
 .repo-list ul li {
-  display: block;
+  display: inline-flex;
 }
 
 .repo-list ul li a {
@@ -129,7 +140,7 @@ img {
   border-radius: 3px;
   color: #fff;
   background-color: #263547;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
 }
 
 .repo-list ul li a:hover {
@@ -157,7 +168,13 @@ img {
   font-size: 1.4em;
   color: #666;
   max-width: 550px;
-  margin-bottom: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#gh-user-data h5 {
+  text-align: center;
+  margin-top: 10px;
 }
 
 #gh-submit {

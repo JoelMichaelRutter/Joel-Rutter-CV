@@ -101,10 +101,10 @@ header {
     margin-left: 50px;
 }
 .logo {
-    /* background-image: url('../images/joel-cv-cropped.jpg'); */
-    /* background-position: center; */
-    background-image: url('../images/joel-rutter-cv-informal.jpg');
-    background-position-y: 18%;
+    background-image: url('../images/joel-cv-cropped.jpg');
+    background-position: center;
+    /* background-image: url('../images/joel-rutter-cv-informal.jpg');
+    background-position-y: 18%; */
     /*Above positioning can be commented out if switching to cropped photo*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -445,6 +445,10 @@ input[type="text"], input[type="email"], .form-control {
 
 .gh-avatar img {
     border-radius: 50%;
+}
+
+.content-container {
+    min-height: 375px;
 }
 /*-----------------------------------------------MEDIA QUERIES*/
 /*-------------Larger screen*/
