@@ -61,9 +61,10 @@ h1, h2, h3, h4 {
 }
 
 .general-sub {
-    font-weight: 400;
+    font-weight: 500;
     color: whitesmoke;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .inline-block{
@@ -251,6 +252,10 @@ footer p {
 
 #footer-details {
     padding: 30px;
+}
+
+.footer-p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-----------------------------------------------Three Reasons*/
@@ -449,6 +454,14 @@ input[type="text"], input[type="email"], .form-control {
 
 .content-container {
     min-height: 375px;
+}
+
+#gh-user-data {
+    text-align: center;
+}
+
+#gh-user-data h2 {
+    margin-top: 15px;
 }
 /*-----------------------------------------------MEDIA QUERIES*/
 /*-------------Larger screen*/
