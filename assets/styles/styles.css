@@ -513,6 +513,22 @@ input[type="text"], input[type="email"], .form-control {
     margin-top: 15px;
 }
 /*-----------------------------------------------MEDIA QUERIES*/
+/*-------------------------Smaller Screen*/
+@media screen and (max-width: 425px) {
+    .slide-info {
+        font-size: 0.6rem;
+    }
+
+    .btn-dark {
+        font-size: 0.6rem;
+    }
+
+    .carousel-caption {
+        padding-bottom: 0;
+    }
+  }
+
+
 /*-------------Larger screen*/
 @media (min-width: 992px) {
     .center-form {
