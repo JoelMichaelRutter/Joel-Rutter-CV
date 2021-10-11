@@ -349,6 +349,33 @@ div#map {
     margin: 40px 20px;
 }
 
+.port-heading {
+    text-align: center;
+}
+
+h5.slide-info {
+    margin-bottom: 0;
+}
+
+.slide-info {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(19, 19, 19, 0.7);
+    font-size: 0.9rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: auto;
+}
+
+.caro-prev-icon {
+    font-size: 1.5rem;
+}
+
+#carousel-control-prev, #carousel-control-next {
+    background-color: rgba(19, 19, 19, 0.8);
+    border: none;
+} 
+
 /*-----------------------------------------------WORK HISTORY*/
 
 .history-heading {
@@ -390,6 +417,13 @@ div#map {
     border-radius: 50%;
     content: '';
     background-color: whitesmoke;
+}
+
+.further-info-clause {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-top: 15px;
 }
 
 /*-----------------------------------------------WORK HISTORY*/
